@@ -177,7 +177,7 @@ body {
     width: 1213px;
     height: 550px;
     background: rgba(255, 255, 255, 0.7);
-    align-items: center;
+    
     grid-template-columns: 50% 50%;
 
 
@@ -205,19 +205,19 @@ body {
     font-family: futura;
     color: #696969;
     font-size: 21.84pt;
-    margin-right: 46px;
-    margin-bottom: 110px;
+    margin: 46px;
+
 }
 
-.descriptors2 p {
-font-size: 18pt;
-    line-height: 80px;
+.descriptors2 li {
+    font-size: 18pt;
+    line-height: 60px;
     
 }
+
 .boxed h4 {
     color: #696969;
     font-family: futura;
-    margin-top: 0px;
 }
 
 #underline {
@@ -239,11 +239,13 @@ font-size: 18pt;
     flex-direction: row;
 }
 
-h2 {
+#mywork h2 {
     color: #696969;
     font-size: 57pt;
     font-family: futura;
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 #mywork div {
@@ -255,6 +257,7 @@ h2 {
     margin-left: 5%;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .small {
@@ -273,8 +276,10 @@ h2 {
 #mywork h3 {
     font-size: 35.33pt;
     font-weight: lighter;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
+
+
 
 
 /******** birdlife *********/
@@ -286,6 +291,8 @@ h2 {
     height: 700px;
     width: 1200px;
     background-position: 70px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -324,6 +331,8 @@ h2 {
     height: 600px;
     width: 1200px;
     background-position: 70px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .wayfarer h4 {
@@ -343,7 +352,7 @@ h2 {
     position: relative;
     float: right;
     right: 110px;
-    top: 100px;
+    top: 135px;
     color: white;
     line-height: 30px;
 
@@ -362,15 +371,38 @@ h2 {
     background-image: url(../Images/plantpal.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 40%;
-    height: 500px;
-    margin: auto;
-    border: 3px solid #73AD21;
+    height: 700px;
     width: 1200px;
-    display: flex;
+    background-position: 70px 0px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.plantpalcontent {
+    width: 300px;
+    position: relative;
+    left: 130px;
+    top: 200px;
+    line-height: 30px;
+    color: white;
 
 }
 
+.plantpal h4{
+    font-size: 21.84pt;
+    margin: 0;
+}
+
+.plantpal p {
+    width: 250px;
+}
+
+.plantpal hr {
+    height: 3px;
+    background-color: white;
+    border: none;
+    margin-top: 22px;
+}
 
 
 
