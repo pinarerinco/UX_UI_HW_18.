@@ -457,29 +457,56 @@ body {
 
 #footer {
     background-color:#FFFEF8;
-    height: 860px;
-    font-size: 1.8em;
+    height: 800px;
+    font-size: 21.84pt;
+    color: #696969;
+    font-family: futura;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer p {
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+.footerp {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
+    padding-top: 540px;
+}
+
+#footer hr {
+    background-color: #696969;
+    border: none;
+    height: 1px;
+
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFFEF8;
 }
 
 .footerdirection {
     font-family: futura;
-    flex-direction: row;
     color: #696969;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .footerdirection h3 {
     text-align: center;
     margin-bottom: 100px;
-    font-size: 2.9em;
+    font-size: 57pt;
 }
 
 .footerdirection p {
