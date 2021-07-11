@@ -505,7 +505,7 @@ body {
 
 .footerdirection h3 {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     font-size: 57pt;
 }
 
@@ -513,25 +513,17 @@ body {
     text-align: center;
 }
 
-.small {
-    display: flex;
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 120px;
+    margin-top: 100px;
+
+}
+
+.container div {
+    display:flex;
     justify-content: center;
-    justify-content: space-around;
-}
-
-.small small {
-    justify-content: space-around;
-    padding-top: 40px;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 120px;
-    font-family:sans-serif;
-}
-
-.lines {
-    display: flex;
-}
-
-.lines hr {
-    margin-top: 20px;
 }
