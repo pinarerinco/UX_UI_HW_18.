@@ -411,24 +411,47 @@ body {
 #myskills {
     background-color:#FFFEF8;
     height: 860px;
+    display: flex;
+    flex-direction: column;
+}
+
+#myskills h2 {
+    font-family: futura;
+    margin-top: 0px;
+    color: #696969;
+    font-size: 57pt;
+    margin-left: 5%;
+    margin-top: 100px;
 }
 
 #table {
-    margin: 350px;
     font-family: futura;
-    font-size: 1.8em;
+    font-size: 21.84pt;
     color: #696969;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
 }
 
 #table td {
     padding: 20px;
+   
 }
 
 #table hr {
     height: 3px;
-    background-color: #696969;
     border: none;
+    
 }
+
+.darkgrey {
+    background-color: #696969;
+}
+
+.lightgrey {
+    background-color: #c4c4c4;
+}
+
 
 /**************************** FOOTER *****************************/
 
