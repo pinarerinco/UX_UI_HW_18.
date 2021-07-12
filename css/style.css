@@ -527,3 +527,147 @@ body {
     display:flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1100px) {
+    .topnav {
+        text-decoration: none;
+        float: right;
+        margin-top: 10px;
+        font-family: sans-serif;
+    }
+
+    .topnav a {
+        text-decoration: none;
+        color: #494949;
+        font-size: 5pt;
+        padding-right: 45px;
+        padding-left: 45px
+    }
+
+    #portfolio {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 60px;
+        font-family: Futura;
+        font-size: 15pt;
+        color: #494949;
+        
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #heroText2 h1 {
+        font-size: 50pt;
+        letter-spacing: 30pt;
+        justify-content: center;
+    }
+
+    #heroText2 {
+
+    font-size: 15pt;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    margin-left: 100pt;
+    margin-top: 40pt;
+    padding-bottom: 0pt;
+
+    }
+
+    .topnav {
+        text-decoration: none;
+        float: right;
+        margin-top: 10px;
+        font-family: sans-serif;
+    }
+
+    .topnav a {
+        text-decoration: none;
+        color: #494949;
+        font-size: 5pt;
+        padding-right: 15px;
+        padding-left: 15px
+    }
+
+    #portfolio {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 60px;
+        font-family: Futura;
+        font-size: 17pt;
+        color: #494949;
+    }
+
+    #wrapper {
+        display: flex;
+        padding-right: 10pt;
+        justify-content: space-between;
+    }
+    
+    .profile {
+        width: 45%;
+        border-radius: 300px;
+        margin-right: 20px;
+        float: left;
+        
+    }
+
+    #wrapper p {
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 15pt;
+    
+    }
+
+    #description {
+        background-image: url(../Images/Rectangle64.png);
+        background-size: cover;
+        height: 50%;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .boxed {
+        display: grid;
+        width: 350px;
+        height: 400px;
+        background: rgba(255, 255, 255, 0.7);
+        
+        grid-template-rows: 50% 50%;
+        
+    }
+
+    .descriptors p {
+        font-size: 13pt;
+        line-height: 20px;
+    }
+
+    .descriptors2 {
+        font-size: 15pt;
+        margin: 15px;
+    
+    }
+
+    .descriptors {
+        font-size: 15pt;
+        margin: 46px;
+    }
+    
+    .descriptors2 li {
+        font-size: 13pt;
+        line-height: 30px;
+        
+    }
+
+
+    #mywork h2 {
+        font-size: 25pt;
+        margin-left: 20px;
+    }
+
+    #mywork h3 {
+        font-size: 19pt;
+    }
+
+}
